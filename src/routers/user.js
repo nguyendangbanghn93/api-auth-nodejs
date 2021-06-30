@@ -24,6 +24,7 @@ router.post("/users/register", async (req, res) => {
 //@POST
 //@PUBLIC
 //@URL: http://localhost:5000/users/login
+
 router.post("/users/login", async (req, res) => {
     //Login a registered user
     try {
